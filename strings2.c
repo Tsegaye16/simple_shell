@@ -45,7 +45,7 @@ int cmp_chars(char str[], const char *delim)
 	{
 		for (b = 0; delim[b]; b++)
 		{
-			if (str[b] == delim[b])
+			if (str[a] == delim[b])
 			{
 				c++;
 				break;
